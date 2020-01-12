@@ -14,6 +14,7 @@
 		6D8A04B423CB798D00E0EF9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8A04B223CB798D00E0EF9F /* LaunchScreen.storyboard */; };
 		6D8A04BC23CB7A4B00E0EF9F /* ObjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A04BB23CB7A4B00E0EF9F /* ObjectsViewController.swift */; };
 		6D8A04BE23CB882E00E0EF9F /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A04BD23CB882E00E0EF9F /* MobileNetV2.mlmodel */; };
+		6D8A04C023CBA26B00E0EF9F /* CaptureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A04BF23CBA26B00E0EF9F /* CaptureManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6D8A04B523CB798D00E0EF9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D8A04BB23CB7A4B00E0EF9F /* ObjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectsViewController.swift; sourceTree = "<group>"; };
 		6D8A04BD23CB882E00E0EF9F /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		6D8A04BF23CBA26B00E0EF9F /* CaptureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				6D8A04BD23CB882E00E0EF9F /* MobileNetV2.mlmodel */,
+				6D8A04BF23CBA26B00E0EF9F /* CaptureManager.swift */,
 				6D8A04BB23CB7A4B00E0EF9F /* ObjectsViewController.swift */,
 				6D8A04A723CB798C00E0EF9F /* AppDelegate.swift */,
 				6D8A04A923CB798C00E0EF9F /* SceneDelegate.swift */,
@@ -145,6 +148,7 @@
 				6D8A04BC23CB7A4B00E0EF9F /* ObjectsViewController.swift in Sources */,
 				6D8A04BE23CB882E00E0EF9F /* MobileNetV2.mlmodel in Sources */,
 				6D8A04AA23CB798C00E0EF9F /* SceneDelegate.swift in Sources */,
+				6D8A04C023CBA26B00E0EF9F /* CaptureManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
