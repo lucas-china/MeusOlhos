@@ -36,6 +36,17 @@ class ObjectsViewController: UIViewController {
     }
     
     @IBAction func analyse(_ sender: UIButton) {
+        guard let label = identifierLabel.text,
+            let word = label.components(separatedBy: ", ").first,
+            let confidence = confidenceLabel.text else { return }
+       
+        let text = "I am \(confidence) confident that this is a \(word)"
+        
+        let utterance = AVSpeechUtterance(string: text)
+        utterance.voice = AVSpeechSynthesisVoice.init(language: "en-US")
+        
+        let syntheizer = AVSpeechSynthesizer()
+        syntheizer.speak(utterance)
     }
     
 }

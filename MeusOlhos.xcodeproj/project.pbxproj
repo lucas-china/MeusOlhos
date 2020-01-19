@@ -60,17 +60,57 @@
 		6D8A04A623CB798B00E0EF9F /* MeusOlhos */ = {
 			isa = PBXGroup;
 			children = (
-				6D8A04BD23CB882E00E0EF9F /* MobileNetV2.mlmodel */,
-				6D8A04BF23CBA26B00E0EF9F /* CaptureManager.swift */,
-				6D8A04BB23CB7A4B00E0EF9F /* ObjectsViewController.swift */,
-				6D8A04A723CB798C00E0EF9F /* AppDelegate.swift */,
-				6D8A04A923CB798C00E0EF9F /* SceneDelegate.swift */,
-				6D8A04AD23CB798C00E0EF9F /* Main.storyboard */,
-				6D8A04B023CB798D00E0EF9F /* Assets.xcassets */,
-				6D8A04B223CB798D00E0EF9F /* LaunchScreen.storyboard */,
-				6D8A04B523CB798D00E0EF9F /* Info.plist */,
+				6DD094FA23D4F2570012EDFF /* Model */,
+				6DD094F923D4F2420012EDFF /* Controllers */,
+				6DD094FC23D4F2770012EDFF /* System Files */,
+				6DD094F823D4F2310012EDFF /* Views */,
+				6DD094FB23D4F2670012EDFF /* Resources */,
 			);
 			path = MeusOlhos;
+			sourceTree = "<group>";
+		};
+		6DD094F823D4F2310012EDFF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D8A04AD23CB798C00E0EF9F /* Main.storyboard */,
+				6D8A04B223CB798D00E0EF9F /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6DD094F923D4F2420012EDFF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D8A04BF23CBA26B00E0EF9F /* CaptureManager.swift */,
+				6D8A04BB23CB7A4B00E0EF9F /* ObjectsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6DD094FA23D4F2570012EDFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D8A04BD23CB882E00E0EF9F /* MobileNetV2.mlmodel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DD094FB23D4F2670012EDFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6D8A04B023CB798D00E0EF9F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6DD094FC23D4F2770012EDFF /* System Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D8A04A723CB798C00E0EF9F /* AppDelegate.swift */,
+				6D8A04A923CB798C00E0EF9F /* SceneDelegate.swift */,
+				6D8A04B523CB798D00E0EF9F /* Info.plist */,
+			);
+			path = "System Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
